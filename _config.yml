@@ -1,0 +1,14 @@
+title: Blog Name
+email: foa7574@gmail.com
+description: >
+  A small, simple blog.
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
